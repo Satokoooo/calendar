@@ -20,3 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::controller(App\Http\Controllers\CalendarController::class)->group(function(){
+    Route::get('calendar/create', 'add')->name('calendar.add');
+});
