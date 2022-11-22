@@ -21,5 +21,9 @@
         "sass-loader": "^12.6.0",
         "vue": "^3.2.45",
         "vue-loader": "^16.8.3"
+    },
+    "dependencies": {
+        "vuetify": "^3.0.1",
+        "webpack-plugin-vuetify": "^2.0.0"
     }
 }
