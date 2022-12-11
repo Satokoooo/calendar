@@ -3,5 +3,6 @@
 @section('content')
 <div id="app">
     <test></test>
+    <task></task>
 </div>
 @endsection

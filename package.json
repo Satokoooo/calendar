@@ -23,6 +23,7 @@
         "vue-loader": "^16.8.3"
     },
     "dependencies": {
+        "@mdi/font": "^7.0.96",
         "vuetify": "^3.0.1",
         "webpack-plugin-vuetify": "^2.0.0"
     }
