@@ -23,3 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::controller(App\Http\Controllers\CalendarController::class)->group(function(){
     Route::get('calendar/create', 'add')->name('calendar.add');
 });
+
+Route::get('ajax/memo', [App\Http\Controllers\Ajax\MemoController::class, 'index'])->name('ajax_memo');
